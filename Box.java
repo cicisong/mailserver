@@ -1,19 +1,22 @@
 package MailBoxManager;
+{
+    String boxName;
+}
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Box implements IBox
 	{
-	    public void readAllMessages();
+	    public void readAllMessages(String message);
 		{
 			system.out.println("Messages read");
 		}
-		 
-		public void readAMessage();
+
+		public void readAMessage(string message);
 		{
 			system.out.println("Message read");
 		}
-		
+
 		public void addMessage();
 		{
-			system.out.println("Message successfully added");
+			system.out.println("Message added");
 		}
-	}                                                                                                                                                                                                                                       
-	
+	}
+
