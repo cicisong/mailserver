@@ -1,20 +1,27 @@
 package MailBoxManager;
-
+/*
+class inherits methods from super class Box
+*/
+public class MailBox extends Box
+{
+/*
+class implements the interface
+*/
 class MailBox implements ImailBox
 	{
 		public void deleteAMessage();
 		{
-			system.out.println("message successfully deleted");
+			system.out.println("message deleted");
 		}
 
 		public void deleteReadMessages();
 		{
-			system.out.println("Messages successfully deleted");
+			system.out.println("Messages deleted");
 		}
 
 		public void deleteAllMessages();
 		{
-			system.out.println("Messages succesfully deleted");
+			system.out.println("Messages deleted");
 		}
 
 		public void readNewMessage();
@@ -23,3 +30,4 @@ class MailBox implements ImailBox
 		}
 
 	}
+}
